@@ -17,7 +17,7 @@ const app = express()
 app.use(
   cors({
     origin:
-      process.env.NODE_ENV === "production" ? ["https://your-frontend-domain.vercel.app"] : ["http://localhost:3000"],
+      process.env.NODE_ENV === "production" ? ["https://clumpcoder-task-kappa.vercel.app"] : ["http://localhost:3000"],
     credentials: true,
   }),
 )
